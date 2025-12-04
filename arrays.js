@@ -33,6 +33,7 @@ console.log(arrFiltrado);
 
 //CLONAGEM DE ARRAY 
 const arr1 = [[1, 2], 2, 3];
+
 const copiaArray = (arr) => {
     const copia = [];
     arr.forEach((elem) => {

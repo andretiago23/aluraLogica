@@ -1,15 +1,15 @@
- const despesas = [1, 2, 3, 4, 5];
+const despesas = [1, 2, 3, 4, 5];
 
+function somaList() {
 
+    for (let i = 0; i < despesas.length; i++) {
+        let total = 0;
+        let numeroA = despesas[i];
+        total = numeroA + total
 
-
-function somaList(despesas) {
-   for (let i = 0; i < despesas.length; i++ ){
-      let numeroA = despesas[i];
-     let total = 0;    
-      total = numeroA + total
-   }
-
+    }
+    console.log('total:' + total)
 }
 somaList()
-console.log('total: ' + total)
+
+
