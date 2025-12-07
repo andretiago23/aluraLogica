@@ -12,7 +12,7 @@ console.log(arrNumeros)
 const elem = arrNumeros.indexOf(5);
 console.log(elem);
 
-//SELECIONAA TODO O ARRAY QUE ESTA PISICIONADO DEPOIS DO ITEM QUE VOCÊ ESCOLHEU
+//SELECIONAA TODO O ARRAY QUE ESTA PISICIONADO DEPOIS DO INDICE QUE VOCÊ ESCOLHEU
 const novoArr = arrNumeros.slice(2);
 console.log(novoArr);
 
